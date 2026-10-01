@@ -6,7 +6,7 @@ pipeline {
         AWS_ACCOUNT_ID = 'YOUR_AWS_ACCOUNT_ID'
         ECR_REPOSITORY = 'image-regi'
         IMAGE_NAME = 'cloud-image'
-        ECR_REGISTRY = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+        ECR_REGISTRY = "164607045936.dkr.ecr.${AWS_REGION}.amazonaws.com"
         ECR_IMAGE = "${ECR_REGISTRY}/${ECR_REPOSITORY}:latest"
     }
 
